@@ -9,7 +9,7 @@ class MappingData:
         self.get_input()
 
     def reset(self):
-        self.map_numbers = {} # The key will be number and value will be the list containing occuring porisions
+        self.map_numbers = {} # The key will be number and value will be the list containing occuring positions
 
     def get_input(self):
         for line in sys.stdin:
